@@ -1,0 +1,115 @@
+create repository at github.com
+
+git config --global user.name "ten3live"
+git config --global user.email "ten3live@gmail.com"
+git config --global user.password "ten3live.com"
+
+touch .gitignore 
+git init
+git add .
+git commit -m "Initial commit"
+git status
+click on ssh then copy
+git@github.com:ten3live/mern.git
+
+git remote add origin git@github.com:ten3live/mern.git
+create SSH Keys in settings
+Generating a new SSH key
+Open Git Bash.
+
+Paste the text below, substituting in your GitHub email address.
+
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+This creates a new ssh key, using the provided email as a label.
+> Generating public/private ed25519 key pair.
+
+
+
+run this command in C:/user/sajjad ali/
+cat sshkey.pub
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMG8dR7XO7nIeyna4USooZNgnGvRQyeDFkEXkrYnnyuPKpA7AVAHT8rjnoEgh6gf4717rB525NzaM47zlAyhW/+hJNBjg6KgadJUQ/6vGR6xxde/dsRKWZhfu6IMUbxo6o+Plk7XGXN/j5TVrgW1fyk8YVIeBItHmpar4tU8TDaACLpNXz+mAMqgD8nSDjLKU1OCvGG0/RlZCJ7MKzFwjaLR/NfA2Bc6qbklFZ3zDQpEU41qhieNVxTwJzYP6vsmipLzy+ypl+U8iyBorTjR+rCmSB5RGG74Ik9UnhMxf0hzZif95kUgCP8Ey0nIMMXwPe0p1Fhy5tRKauSYS6GyAkWAG8Dwsi1FWCLSsbul5tWPBHQxFHS1GKuDomyB+FyOHJffntECc6mqKft7QYKz1Cs4jSsd3MtCugXJaiHngO4mDK/hMmkhHsTd1uMxtyG7jPVOTz+ggUdRp1poX/dYlIKq13Dz/53sadEQ8ORetnZ7MmjXlkz3kVF5tHwodb2PPl8UqK8Xb4OsavAqNDdto1kMccqBjiYcDRhLZMhVpyMBstQ124LtNZl+KkG9jg4zGo3fzC3F3WUisTETWHOt2iHp0Y1e1P2Iva7kp59Gd7i6om9L6MfHjcfbHSidjeHuCcHrSRAuUR+gLF1H5kO2OxRQsA6Zsw4DbZ8RprVmxjMw== ten3live@gmail.com
+
+git push origin master
+
+-------------------
+
+
+
+
+
+To Create File
+touch index.html
+
+Files To Ignore
+touch .gitignore
+
+Description
+touch README.md
+
+Initialize Git
+git init
+
+
+Config Your Git
+git config --global user.name 'ten3live'
+git config --global user.email 'ten3live@gmail.com'
+
+Add All HTML Files
+git add *.html
+
+Add All
+git add .
+
+Add Single File
+git add index.html
+
+Check Updated or Not
+git status
+
+Remove Added File
+git rm --cached index.html
+
+Make Changes
+git commit
+Make Changes with Comment
+git commit -m 'changed app.js'
+press i to get insert mode
+i
+press escape to back to coding
+:wq
+
+To Process Files To Git
+git push
+
+
+To Access Changes on Git
+git pull
+
+To Download Repository
+git clone 
+
+
+Access Created Repository
+git remote add origin https://github.com/sajjad/myapp.git
+git remote add origin https://github.com/ten3live/sajjad.git 
+
+git push -u origin master 
+
+Change Project
+git branch login
+git checkout login
+
+Add Another Project To Current
+git merge login
+
+Git Ignore 
+log.txt
+/dir2
+
+Readme.md
+#For Title
